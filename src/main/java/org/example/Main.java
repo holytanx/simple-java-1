@@ -21,9 +21,6 @@ public class Main {
         } else {
             data = 0;
         }
-
-        // AVOID: potential truncation if input data is very large,
-        // for example 'Long.MAX_VALUE'
         int scaled = (int)data;
     }
 }
